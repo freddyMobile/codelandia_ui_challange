@@ -1,3 +1,4 @@
+import 'package:codelandia_ui_challange/constants/color_constants.dart';
 import 'package:codelandia_ui_challange/constants/page_constants.dart';
 import 'package:flutter/material.dart';
 
@@ -20,56 +21,53 @@ class _CoreScreenState extends State<CoreScreen> {
       ),
       bottomNavigationBar: BottomNavigationBar(
         elevation: 0,
-        items: const [
+        items: [
           BottomNavigationBarItem(
             activeIcon: Icon(
               Icons.home,
-              color: Colors.black,
+              color: AppColors.blackColor,
             ),
             icon: Icon(
               Icons.home_outlined,
-              color: Colors.grey,
+              color: AppColors.greyColor,
             ),
             label: '',
           ),
           BottomNavigationBarItem(
-              activeIcon: Icon(
-                Icons.search,
-                color: Colors.black,
-              ),
+              activeIcon: Icon(Icons.search, color: AppColors.blackColor),
               icon: Icon(
                 Icons.search,
-                color: Colors.grey,
+                color: AppColors.greyColor,
               ),
               label: ''),
           BottomNavigationBarItem(
               activeIcon: Icon(
                 Icons.share,
-                color: Colors.black,
+                color: AppColors.blackColor,
               ),
               icon: Icon(
                 Icons.share_outlined,
-                color: Colors.grey,
+                color: AppColors.greyColor,
               ),
               label: ''),
           BottomNavigationBarItem(
               activeIcon: Icon(
                 Icons.favorite,
-                color: Colors.black,
+                color: AppColors.blackColor,
               ),
               icon: Icon(
                 Icons.favorite_border,
-                color: Colors.grey,
+                color: AppColors.greyColor,
               ),
               label: ''),
           BottomNavigationBarItem(
               activeIcon: Icon(
                 Icons.person,
-                color: Colors.black,
+                color: AppColors.blackColor,
               ),
               icon: Icon(
                 Icons.person_outline,
-                color: Colors.grey,
+                color: AppColors.greyColor,
               ),
               label: ''),
         ],
